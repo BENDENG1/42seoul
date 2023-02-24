@@ -1,0 +1,26 @@
+{
+	"files.associations": {
+		"__bit_reference": "cpp",
+		"__hash_table": "cpp",
+		"__mutex_base": "cpp",
+		"__string": "cpp",
+		"__tree": "cpp",
+		"__undef_macros": "cpp",
+		"algorithm": "cpp",
+		"bitset": "cpp",
+		"chrono": "cpp",
+		"cmath": "cpp",
+		"istream": "cpp",
+		"limits": "cpp",
+		"locale": "cpp",
+		"numeric": "cpp",
+		"random": "cpp",
+		"ratio": "cpp",
+		"streambuf": "cpp",
+		"string": "cpp",
+		"string_view": "cpp",
+		"vector": "cpp",
+		"complex": "cpp",
+		"memory": "c"
+	}
+}

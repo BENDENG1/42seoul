@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/07 18:05:59 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/07 18:06:01 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/24 15:21:16 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	free_all(t_deque *info)
 		info->top_a = tmp1;
 	}
 	free(info->top_a);
-	free(info);
+	//free(info);
 }
 
 void	finish1(t_deque *info, int idx, int min, t_node *p_node)
@@ -79,11 +79,17 @@ void	sort(t_deque *info)
 
 int	main(int ac, char **av)
 {
-	t_deque	*info;
+	//t_deque	*info;
 
-	info = (t_deque *)malloc(sizeof(t_deque));
-	parsing(ac, av, info);
-	ft_stack(info);
-	sort(info);
-	free_all(info);
+	//info = (t_deque *)malloc(sizeof(t_deque));
+	t_deque	info;
+
+	//info = (t_deque *)malloc(sizeof(t_deque));
+	parsing(ac, av, &info);
+	ft_stack(&info);
+	sort(&info);
+	free_all(&info);
+
+	//메모리 누수 체크
+	//system("leaks push_swap");
 }
