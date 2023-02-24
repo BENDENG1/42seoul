@@ -1,0 +1,5 @@
+Credentials cache: API:A4972944-53AB-456D-9507-3D3A16C891FB
+        Principal: gyroh@42SEOUL.KR
+
+  Issued                Expires               Principal
+Apr 11 18:52:34 2022  Apr 12 04:52:34 2022  krbtgt/42SEOUL.KR@42SEOUL.KR
