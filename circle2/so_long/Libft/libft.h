@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gyroh <gyroh@student.42seoul.kr>           +#+  +:+       +#+        */
+/*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/09 17:45:00 by gyroh             #+#    #+#             */
-/*   Updated: 2022/08/18 14:51:22 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 14:43:47 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ void	*ft_memset(void *dest, int value, size_t size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 int		ft_strlen(const char *str);
+int		ft_strcmp(const char *s1, const char *s2);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
@@ -45,6 +46,7 @@ char	*ft_strnstr(const char *str, const char *find, size_t len);
 int		ft_atoi(const char *str);
 char	*ft_strdup(char *str);
 void	*ft_calloc(size_t count, size_t size);
+char	**ft_freeall(char **list);
 char	*ft_substr(char const *str, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *s2);

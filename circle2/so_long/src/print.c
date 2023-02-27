@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:52:00 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:52:04 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 15:36:23 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	print_init_image(t_info *info)
 	int	i;
 	int	j;
 
-	info->win = mlx_new_window(info->mlx, info->win_w, info->win_h, "jihonkim");
+	info->win = mlx_new_window(info->mlx, info->win_w, info->win_h, "gyroh");
 	i = -1;
 	while (++i < info->board_w)
 	{
