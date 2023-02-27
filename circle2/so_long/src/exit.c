@@ -6,11 +6,10 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 15:50:09 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:51:01 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:48:01 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "so_long.h"
 #include "libft.h"
 #include "mlx.h"

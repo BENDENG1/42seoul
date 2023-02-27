@@ -1,5 +1,12 @@
 {
 	"files.associations": {
-		"libft.h": "c"
+		"libft.h": "c",
+		"__bit_reference": "c",
+		"__mutex_base": "c",
+		"__threading_support": "c",
+		"algorithm": "c",
+		"bitset": "c",
+		"chrono": "c",
+		"unordered_map": "c"
 	}
 }

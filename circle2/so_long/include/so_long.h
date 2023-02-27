@@ -6,12 +6,17 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:53:01 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:53:06 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:58:40 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
+
+# include <stdlib.h>
+# include <fcntl.h>
+# include <unistd.h>
+# include <stddef.h>
 
 typedef struct s_img
 {
@@ -58,17 +63,17 @@ typedef struct s_info
 
 # define DESTROY_NOTIFY 17
 
-# define ERROR_EXTENSION "Error\n extension must be .ber"
-# define ERROR_FD "Error\n invalid file descriptor"
-# define ERROR_MAP_SIZE "Error\n invalid map size"
-# define ERROR_MALLOC "Error\n malloc error"
-# define ERROR_WALL "Error\n outside board must be wall"
-# define ERROR_RECTANGLE "Error\n board is not rectangle"
-# define ERROR_INVALID_CHAR "Error\n invalid character in board"
-# define ERROR_NO_PLAYER "Error\n no player on the board"
-# define ERROR_NO_EXIT "Error\n no exit on the board"
-# define ERROR_NO_COLLECTIBLE "Error\n there is no collectible on the board"
-# define ERROR_CANT_CLEAR "Error\n cant clear"
+# define ERROR_EXTENSION "Error\nReason : extension Should be .ber"
+# define ERROR_FD "Error\nReason : invalid file descriptor"
+# define ERROR_MAP_SIZE "Error\nReason : invalid map size"
+# define ERROR_MALLOC "Error\nReason : malloc error"
+# define ERROR_WALL "Error\nReason : outside board must be wall"
+# define ERROR_RECTANGLE "Error\nReason : board is not rectangle"
+# define ERROR_INVALID_CHAR "Error\nReason : invalid character in board"
+# define ERROR_NO_PLAYER "Error\nReason : no player on the board"
+# define ERROR_NO_EXIT "Error\nReason : no exit on the board"
+# define ERROR_NO_COLLECTIBLE "Error\nReason : there is no collectible on the board"
+# define ERROR_CANT_CLEAR "Error\nReason : cant clear"
 
 # define PATH_BACKGROUND "./img/background.xpm"
 # define PATH_PLAYER "./img/player.xpm"

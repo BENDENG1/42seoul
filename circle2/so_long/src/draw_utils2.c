@@ -6,12 +6,11 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:34:09 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:34:19 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:47:43 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
-#include <unistd.h>
 
 void	set_board_data(t_info *info, const char c, int y, int x)
 {

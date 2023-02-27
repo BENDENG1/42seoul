@@ -1,19 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_clear.c                                      :+:      :+:    :+:   */
+/*   validate_clear.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 15:32:47 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:32:52 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:48:55 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 void	validate_exit_reachable(char **table, t_info *info, int i, int j)
 {

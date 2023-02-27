@@ -6,13 +6,10 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:33:37 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:34:22 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:47:38 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
 #include "so_long.h"
 #include "libft.h"
 

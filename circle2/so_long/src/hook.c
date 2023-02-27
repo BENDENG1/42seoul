@@ -6,12 +6,11 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:50:51 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:50:55 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/02/27 19:48:12 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
-#include <stdlib.h>
 #include <libft.h>
 
 static void	move(t_info *info, int dir)
