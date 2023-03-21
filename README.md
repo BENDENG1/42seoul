@@ -4,6 +4,7 @@
 <h3>0-Circle : libft<br>
 0-Circle 기간 : 2022.07 ~ 2022.09.
 [![gyroh's 42 Libft Score](https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2647787)](https://github.com/JaeSeoKim/badge42)
+  <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2647787" alt="gyroh's 42 Libft Score" /></a>
   
 <h3>1-Circle : get-next-line, born2beroot, ft_printf<br>
 1-Circle 기간 : 2022.09 ~ 2022.12.
