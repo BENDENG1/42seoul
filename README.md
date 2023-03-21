@@ -16,54 +16,44 @@
 
 
 <table>
-    <thead>
-        <tr>
-            <th>과제</th>
-            <th>이름</th>
-            <th>링크</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Libft</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/Libft-2647787">https://github.com/JaeSeoKim/badge42/gyroh/Libft-2647787</a></td>
-        </tr>
-        <tr>
-            <td>ft_printf</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/ft_printf-2755518">https://github.com/JaeSeoKim/badge42/gyroh/ft_printf-2755518</a></td>
-        </tr>
-        <tr>
-            <td>get_next_line</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/get_next_line-2755519">https://github.com/JaeSeoKim/badge42/gyroh/get_next_line-2755519</a></td>
-        </tr>
-        <tr>
-            <td>born2beroot</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/born2beroot-2755517">https://github.com/JaeSeoKim/badge42/gyroh/born2beroot-2755517</a></td>
-        </tr>
-        <tr>
-            <td>exam-rank02</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/exam-rank02-3001907">https://github.com/JaeSeoKim/badge42/gyroh/exam-rank02-3001907</a></td>
-        </tr>
-        <tr>
-            <td>minitalk</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/minitalk-2947350">https://github.com/JaeSeoKim/badge42/gyroh/minitalk-2947350</a></td>
-        </tr>
-        <tr>
-            <td>push-swap</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/push-swap-2947349">https://github.com/JaeSeoKim/badge42/gyroh/push-swap-2947349</a></td>
-        </tr>
-        <tr>
-            <td>so-long</td>
-            <td>gyroh</td>
-            <td><a href="https://github.com/JaeSeoKim/badge42/gyroh/so-long-2947351">https://github.com/JaeSeoKim/badge42/gyroh/so-long-2947351</a></td>
-        </tr>
-    </tbody>
-</table>
-
+  <thead>
+    <tr>
+      <th>과제</th>
+      <th>링크</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Libft</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2647787" alt="gyroh's 42 Libft Score" /></a></td>
+    </tr>
+    <tr>
+      <td>ft_printf</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2755518" alt="gyroh's 42 ft_printf Score" /></a></td>
+    </tr>
+    <tr>
+      <td>get_next_line</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2755519" alt="gyroh's 42 get_next_line Score" /></a></td>
+    </tr>
+    <tr>
+      <td>born2beroot</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2755517" alt="gyroh's 42 Born2beroot Score" /></a></td>
+    </tr>
+    <tr>
+      <td>exam-rank02</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/3001907" alt="gyroh's 42 Exam Rank 02 Score" /></a></td>
+    </tr>
+    <tr>
+      <td>minitalk</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2947350" alt="gyroh's 42 minitalk Score" /></a></td>
+    </tr>
+    <tr>
+      <td>push-swap</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2947349" alt="gyroh's 42 push_swap Score" /></a></td>
+    </tr>
+    <tr>
+      <td>so-long</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2947351" alt="gyroh's 42 so_long Score" /></a></td>
+    </tr>
+  </tbody>
+  </table>
