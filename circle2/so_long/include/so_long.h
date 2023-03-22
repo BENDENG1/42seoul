@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:53:01 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/27 19:58:40 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/22 15:58:10 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,6 +74,7 @@ typedef struct s_info
 # define ERROR_NO_EXIT "Error\nReason : no exit on the board"
 # define ERROR_NO_COLLECTIBLE "Error\nReason : there is no collectible on the board"
 # define ERROR_CANT_CLEAR "Error\nReason : cant clear"
+# define ERROR_DUPLICATE_PLAYER "Error\nReason : Duplicate Player"
 
 # define PATH_BACKGROUND "./img/background.xpm"
 # define PATH_PLAYER "./img/player.xpm"

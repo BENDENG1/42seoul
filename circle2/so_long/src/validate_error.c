@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_error.c                                      :+:      :+:    :+:   */
+/*   validate_error.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:33:13 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/25 15:33:19 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/22 15:58:27 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,8 @@ void	validate_board_data(t_info *info)
 {
 	if (info->player.count == 0)
 		exit_so_long(info, ERROR_NO_PLAYER);
+	if (info->player.count > 1)
+		exit_so_long(info, ERROR_DUPLICATE_PLAYER);
 	if (info->exit.count == 0)
 		exit_so_long(info, ERROR_NO_EXIT);
 	if (info->collectible.count == 0)
