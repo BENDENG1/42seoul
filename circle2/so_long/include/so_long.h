@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:53:01 by gyroh             #+#    #+#             */
-/*   Updated: 2023/03/22 15:58:10 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/22 18:34:56 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,11 +76,11 @@ typedef struct s_info
 # define ERROR_CANT_CLEAR "Error\nReason : cant clear"
 # define ERROR_DUPLICATE_PLAYER "Error\nReason : Duplicate Player"
 
-# define PATH_BACKGROUND "./img/background.xpm"
-# define PATH_PLAYER "./img/player.xpm"
-# define PATH_WALL "./img/wall.xpm"
-# define PATH_EXIT "./img/exit.xpm"
-# define PATH_COLLECTIBLE "./img/collectible.xpm"
+# define PATH_BACKGROUND "./image/background.xpm"
+# define PATH_PLAYER "./image/player.xpm"
+# define PATH_WALL "./image/wall.xpm"
+# define PATH_EXIT "./image/exit.xpm"
+# define PATH_COLLECTIBLE "./image/collectible.xpm"
 
 void	exit_so_long(t_info *info, char *s);
 

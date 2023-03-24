@@ -6,7 +6,7 @@
 #    By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/12 15:31:32 by gyroh             #+#    #+#              #
-#    Updated: 2023/02/27 17:34:05 by gyroh            ###   ########.fr        #
+#    Updated: 2023/03/24 12:49:22 by gyroh            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,11 +22,11 @@ HEADER = $(INC_DIR)/so_long.h
 SRCS = $(addprefix $(SRC_DIR)/, \
 	main.c \
 	exit.c	\
-	validate_error.c	\
-	validate_clear.c	\
+	check_error.c	\
+	check_clear.c	\
 	print.c	\
-	draw_utils1.c	\
-	draw_utils2.c	\
+	draw1.c	\
+	draw2.c	\
 	init.c	\
 	hook.c	\
 )
