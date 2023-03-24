@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:33:37 by gyroh             #+#    #+#             */
-/*   Updated: 2023/03/24 12:48:36 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/24 13:24:45 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,7 +118,7 @@ static void	set_board(t_info *info)
 void	create_board(t_info *info)
 {
 	info->s_size = read_file_length(info->file_name);
-	if (info->s_size < 17)
+	if (info->s_size <= 16)
 		exit_so_long(info, ERROR_MAP_SIZE);
 	info->s = (char *)malloc(sizeof(char) * (info->s_size + 1));
 	if (info->s == NULL)

@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 15:32:47 by gyroh             #+#    #+#             */
-/*   Updated: 2023/03/24 12:49:24 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/24 15:54:45 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	flow(char **table, t_info *info, int i, int j)
 		&& table[i + 1][j] != '2' && table[i + 1][j] != EXIT)
 		flow(table, info, i + 1, j);
 	if (j - 1 >= 0 && table[i][j - 1] != WALL
-		&& table[i][j - 1] != '2' && table[i][j - 2] != EXIT)
+		&& table[i][j - 1] != '2' && table[i][j - 1] != EXIT)
 		flow(table, info, i, j - 1);
 	if (j + 1 < info->board_w && table[i][j + 1] != WALL
 		&& table[i][j + 1] != '2' && table[i][j + 1] != EXIT)

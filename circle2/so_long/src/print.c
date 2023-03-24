@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:52:00 by gyroh             #+#    #+#             */
-/*   Updated: 2023/02/27 15:36:23 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/24 13:47:06 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,7 @@
 
 static void	print_image(t_info *info, void *img, int x, int y)
 {
-	if (img == info->player.img)
-		mlx_put_image_to_window(info->mlx, info->win, img, x, y);
-	else
-		mlx_put_image_to_window(info->mlx, info->win, img, x, y);
+	mlx_put_image_to_window(info->mlx, info->win, img, x, y);
 }
 
 void	print_init_image(t_info *info)
