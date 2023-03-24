@@ -6,11 +6,9 @@
 #    By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/02 16:00:35 by gyroh             #+#    #+#              #
-#    Updated: 2023/03/24 16:00:39 by gyroh            ###   ########.fr        #
+#    Updated: 2023/03/24 19:18:41 by gyroh            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -fsanitize=thread
