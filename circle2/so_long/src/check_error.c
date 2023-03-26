@@ -6,7 +6,7 @@
 /*   By: gyroh <gyroh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 15:33:13 by gyroh             #+#    #+#             */
-/*   Updated: 2023/03/24 21:09:52 by gyroh            ###   ########.fr       */
+/*   Updated: 2023/03/26 15:18:22 by gyroh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ void	validate_board_data(t_info *info)
 	if (info->exit.count == 0)
 		exit_so_long(info, ERROR_NO_EXIT);
 	if (info->exit.count > 1)
-		exit_so_long(info, ERROR_DUPLICATE_PLAYER);
+		exit_so_long(info, ERROR_DUPLICATE_EXIT);
 	if (info->collectible.count == 0)
 		exit_so_long(info, ERROR_NO_COLLECTIBLE);
 }
