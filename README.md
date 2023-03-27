@@ -8,11 +8,13 @@
 <h3>1-Circle : get-next-line, born2beroot, ft_printf<br>
 1-Circle 기간 : 2022.09 ~ 2022.12.<br>
 
-
   
 <h3>2-Circle : minitalk, push-swap, so-long<br>
-2-Circle 기간 : 2023.01. ~ <br>
-블랙홀이 얼마 남지 않았다.. 열심히 해야겠다
+2-Circle 기간 : 2023.01. ~ 2023.03<br>
+
+
+<h3>2-Circle : philosophers, minishell<br>
+2-Circle 기간 : 2023.03. ~ 
 
 <br><br><br><br>
 <table>
