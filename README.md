@@ -21,7 +21,7 @@
   <thead>
     <tr>
       <th>과제</th>
-      <th>링크</th>
+      <th>점수</th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +56,14 @@
     <tr>
       <td>so-long</td>
       <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/2947351" alt="gyroh's 42 so_long Score" /></a></td>
+    </tr>
+    <tr>
+      <td>exam-rank03</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/3044925" alt="gyroh's 42 Exam Rank 03 Score" /></a></td>
+    </tr>
+    <tr>
+      <td>philosophers</td>
+      <td><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl5djg455004909mh8s6gxle4/project/3044926" alt="gyroh's 42 Philosophers Score" /></a></td>
     </tr>
   </tbody>
   </table>
