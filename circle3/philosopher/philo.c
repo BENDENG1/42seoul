@@ -57,12 +57,12 @@ int	main(int argc, char **argv)
 
 	if (monitor_init(&monitor, argc, argv) < 0)
 	{
-		printf("[error]: monitor_init\n");
+		printf("Error : monitor_init\n");
 		return (0);
 	}
 	if (mutex_init(&monitor) < 0)
 	{
-		printf("[error]: mutex_init\n");
+		printf("Error : mutex_init\n");
 		return (free_all(&monitor));
 	}
 	if (create_philos(&monitor) < 0)
@@ -70,7 +70,7 @@ int	main(int argc, char **argv)
 		pthread_mutex_lock(&(monitor.m_finish));
 		monitor.finish_flag = 2;
 		pthread_mutex_unlock(&(monitor.m_finish));
-		printf("[error]: create_philos\n");
+		printf("Error : create_philos\n");
 		free_thread(&monitor);
 		return (free_all(&monitor));
 	}
