@@ -32,9 +32,10 @@ int	create_philos(t_monitor *monitor)
 	monitor->thread = malloc(sizeof(pthread_t) * monitor->num_of_philo);
 	if (monitor->thread == NULL)
 		return (-1);
-	target = routine;
 	if (monitor->num_of_philo == 1)
 		target = routine_one;
+	else
+		target = routine;
 	pthread_mutex_lock(&(monitor->m_start));
 	i = 0;
 	while (i < monitor->num_of_philo)

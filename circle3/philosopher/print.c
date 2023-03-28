@@ -18,12 +18,6 @@ int	ft_error(char *msg)
 	return (-1);
 }
 
-/*
-* take_fork: "%ldms\t%d\thas taken a fork\n"
-* eat: "%ldms\t%d\tis eating\n"
-* sleep: "%ldms\t%d\tis sleeping\n"
-* think: "%ldms\t%d\tis thinking\n"
-*/
 int	print_state(t_philo *philo, char *msg)
 {
 	long			time;
@@ -66,9 +60,9 @@ int	print_finish(t_philo *philo, int status)
 	time = calc_time(&(philo->monitor->start_time), &cur);
 	pthread_mutex_lock(&(philo->monitor->m_print));
 	if (status == DIE)
-		printf("%ldms\t%dis died\n", time, philo->id + 1);
+		printf("%ldms  %d  died\n", time, philo->id + 1);
 	else if (status == FULL)
-		printf("%ldms\tall philosophers are full\n", time);
+		printf("%ldms  all philosophers are full\n", time);
 	pthread_mutex_unlock(&(philo->monitor->m_print));
 	return (1);
 }

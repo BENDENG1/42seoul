@@ -26,7 +26,7 @@ void	routine_eat(t_philo *philo)
 	pthread_mutex_lock(&(philo->m_last_eat));
 	philo->last_eat = calc_time(&(philo->monitor->start_time), &curr_time);
 	pthread_mutex_unlock(&(philo->m_last_eat));
-	if (print_state(philo, "%ldms\t%d\tis eating\n") < 0)
+	if (print_state(philo, "%ldms  %d  is eating\n") < 0)
 	{
 		routine_takeoff_fork(philo);
 		return ;
@@ -41,7 +41,7 @@ void	routine_sleep(t_philo *philo)
 {
 	struct timeval	start_time;
 
-	if (print_state(philo, "%ldms\t%d\tis sleeping\n") < 0)
+	if (print_state(philo, "%ldms  %d  is sleeping\n") < 0)
 		return ;
 	if (gettimeofday(&(start_time), NULL) != 0)
 	{

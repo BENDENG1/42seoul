@@ -33,7 +33,10 @@ void	free_fork(t_monitor *monitor, int philo_num)
 
 	i = 0;
 	while (i < philo_num)
-		pthread_mutex_destroy(&(monitor->m_fork[i++]));
+	{
+		pthread_mutex_destroy(&(monitor->m_fork[i]));
+		i++;
+	}
 	free(monitor->fork);
 	free(monitor->m_fork);
 }
@@ -41,13 +44,13 @@ void	free_fork(t_monitor *monitor, int philo_num)
 void	free_thread(t_monitor *monitor)
 {
 	int	i;
-	int	status;
+	int	after;
 
 	i = 0;
 	while (i < monitor->num_of_philo)
 	{
 		if (monitor->thread[i] != NULL)
-			pthread_join(monitor->thread[i], (void *)&status);
+			pthread_join(monitor->thread[i], (void *)&after);
 		i++;
 	}
 	free(monitor->thread);
