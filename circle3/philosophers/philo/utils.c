@@ -23,7 +23,7 @@ int	ft_atoi(char *str)
 	while (str[i])
 	{
 		if (str[i] < '0' || str[i] > '9')
-			return (ft_error("[error]: ft_atoi\n"));
+			return (ft_error("Error: ft_atoi\n"));
 		i++;
 	}
 	i = 0;
@@ -36,7 +36,7 @@ int	ft_atoi(char *str)
 		i++;
 	}
 	if (result > INT_MAX)
-		return (ft_error("[error]: ft_atoi\n"));
+		return (ft_error("Error: ft_atoi\n"));
 	return (result);
 }
 
