@@ -19,7 +19,7 @@
 <h3>3-Circle : philosophers, minishell<br>
 3-Circle 기간 : 2023.03. ~ 2023.04<br>
 
-<br><br><br><br>
+<br>
 <table>
   <thead>
     <tr>
